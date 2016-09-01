@@ -1,0 +1,41 @@
+<!-- Banner -->
+	<style media="screen">
+		#banner {
+			background-attachment: scroll, scroll, scroll, fixed;
+			background-color: #645862;
+			background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("images/{{ site.banner }}");
+			background-position: bottom left, bottom right, top left, top center;
+			background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+			background-size: 25em, 25em, auto, cover;
+			color: #fff;
+			cursor: default;
+			padding: 6em 0;
+			text-align: center;
+		}
+	</style>
+	<section id="banner">
+
+		<!--
+			".inner" is set up as an inline-block so it automatically expands
+			in both directions to fit whatever's inside it. This means it won't
+			automatically wrap lines, so be sure to use line breaks where
+			appropriate (<br />).
+		-->
+		<div class="inner">
+			<header>
+				<h2>{{ site.title }}</h2>
+			</header>
+			<p>This is my <strong>{{ site.title }}</strong>,
+			<br />
+			a food ministry
+			<br />
+			Kansas City, Missouri.</p>
+			<footer>
+				<ul class="buttons vertical">
+					<li><a href="about.html" class="button fit scrolly">More Info</a></li>
+				</ul>
+			</footer>
+
+		</div>
+
+	</section>
