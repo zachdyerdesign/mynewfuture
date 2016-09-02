@@ -9,8 +9,6 @@
 title: New Future
 email: zach.dyer@zachdyerdesign.com
 description: New Future ministry website
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://mynewfuture.net" # the base hostname & protocol for your site
 banner: boysunset.jpg
 
 # Build settings
