@@ -2070,7 +2070,7 @@
 		input[type="submit"].special,
 		input[type="reset"].special,
 		.button.special {
-			background: #495fab;
+			background: #cbce62;
 			border-color: #495fab;
 			color: #fff !important;
 		}
