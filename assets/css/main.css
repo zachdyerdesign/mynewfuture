@@ -2203,11 +2203,12 @@
 
 			#header h1 span {
 				font-weight: 300;
+				margin-left: 80px;
+				margin-top: 20px;
 			}
 
 			#header h1 a {
 				position: relative;
-
 			}
 
 		#header nav {
@@ -2300,17 +2301,25 @@
 		#header.alt #logo {
 			position: relative;
 			top: 0px;
-
 		}
 		#header #logo {
 			background-repeat: no-repeat;
 			height: 52px;
 	    background-size: 185px;
-	    width: 192px;
+	    /*width: 192px;*/
 			top: 14px;
     	position: relative;
 			display: block;
 			border: none;
+		}
+		#logo img {
+			width: 87px;
+			position: absolute;
+			top: -28px;
+		}
+		#logo .text {
+			position: relative;
+			top:2px;
 		}
 
 		#header.alt nav {
