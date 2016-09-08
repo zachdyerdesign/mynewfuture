@@ -1703,6 +1703,11 @@
 				font-size: 3.5em;
 				opacity: 0.35;
 			}
+			header.special .emblem {
+				width: 152px;
+				position: relative;
+				top: -55px;
+			}
 
 	footer > :last-child {
 		margin-bottom: 0;
