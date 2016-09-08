@@ -3114,6 +3114,9 @@
 				#header .call {
 					display: block;
 				}
+				#header #logo {
+					display: none;
+				}
 
 			footer.major {
 				padding-top: 0;
