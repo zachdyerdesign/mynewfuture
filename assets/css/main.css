@@ -1815,6 +1815,10 @@
 				display: block;
 				width: 100%;
 			}
+		.align-left {
+			float: left;
+			margin-right: 20px;
+		}
 
 /* Icon */
 
