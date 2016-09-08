@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contact Us
+permalink: contact
 ---
 			<!-- Main -->
 				<article id="main">
@@ -14,15 +15,17 @@ title: Contact Us
 					<!-- One -->
 						<section class="wrapper style4 special container 75%">
 
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d396368.6856221424!2d-94.85590022070367!3d39.09211671569071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0f75eafe99997%3A0x558525e66aaa51a2!2sKansas+City%2C+MO!5e0!3m2!1sen!2sus!4v1472856375459" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+							<!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d396368.6856221424!2d-94.85590022070367!3d39.09211671569071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0f75eafe99997%3A0x558525e66aaa51a2!2sKansas+City%2C+MO!5e0!3m2!1sen!2sus!4v1472856375459" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>-->
 
 							<!-- Content -->
 								<div class="content">
 									<div class="row 50%" align="left">
 										<div class="6u 12u(mobile)">
-											<h3><span class="icon fa-map-marker"></span> Address</h3>
+											<h3><span class="icon fa-envelope"></span> E-mail</h3>
+											<p><a href="mailto:{{ site.data.config.email }}">{{ site.data.config.email }}</a>	</p>
+											<!--<h3><span class="icon fa-map-marker"></span> Address</h3>
 											<p><strong>{{ site.title }}</strong><br>
-											{{ site.data.config.address }}</p>
+											{{ site.data.config.address }}</p>-->
 
 											<h3><span class="icon fa-phone"></span> Telephone</h3>
 											<p>{{ site.data.config.phone }}</p>
@@ -34,16 +37,9 @@ title: Contact Us
 										</div>
 
 										<div class="6u 12u(mobile)">
-											<h3><span class="icon fa-envelope"></span> E-mail</h3>
-											<p><a href="mailto:{{ site.data.config.email }}">{{ site.data.config.email }}</a>	</p>
 
-											<h3><span class="icon fa-clock-o"></span> Meeting Hours</h3>
-											<p>Monday – Friday: 8:30am – 5pm<br>
-											Saturday: 8am – 2pm</p>
-
-											<h3><span class="icon fa-clock-o"></span> Ministry Hours</h3>
-											<p>Monday – Friday: 7:30am – 5pm<br>
-											Saturday: 8am – 2pm</p>
+											<h3><span class="icon fa-clock-o"></span> Studio Hours</h3>
+											<p>Monday – Friday: 10am – 5pm</p>
 										</div>
 									</div>
 									<form action="https://formspree.io/{{ site.data.config.email }}" method="POST">
