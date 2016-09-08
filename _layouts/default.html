@@ -8,7 +8,7 @@
 	<head>
 		{% include head.html %}
 	</head>
-	<body class="index">
+	<body class="{% if page.url == '/' %}index{% endif %}">
 		<div id="page-wrapper">
 
 			{% include header.html %}
